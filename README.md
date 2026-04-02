@@ -1,4 +1,4 @@
-# LedgerCurator Frontend
+# LedgerCurator
 
 **Precision financial management UI** — built with React + Vite + Tailwind CSS + Framer Motion.
 
