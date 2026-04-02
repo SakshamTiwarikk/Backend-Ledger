@@ -9,7 +9,7 @@ app.use(
   cors({
     origin: [
     "http://localhost:5173",
-    "https://eclectic-medovik-15517b.netlify.app/login"
+    "https://backend-ledger-git-main-sakshamtiwarikks-projects.vercel.app"
     ],
     credentials: true,
   })
