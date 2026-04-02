@@ -2,10 +2,10 @@ import axios from 'axios'
 
 // ── Axios instance ────────────────────────────────────────────────────────────
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: `${import.meta.env.VITE_API_URL}/api`,
   withCredentials: true,
   headers: { 'Content-Type': 'application/json' },
-  timeout: 30_000,
+  timeout: 30000,
 })
 
 // Attach JWT token to every request
