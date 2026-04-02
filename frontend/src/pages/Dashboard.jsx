@@ -213,6 +213,7 @@ export default function Dashboard() {
           {/* Right panel — Initial funds + admin */}
           <div className="space-y-4">
             {/* Admin core card */}
+            {user?.systemUser && (
             <div className="bg-surface-900 rounded-xl2 p-5 text-white">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-9 h-9 bg-brand-500 rounded-xl flex items-center justify-center">
@@ -235,8 +236,9 @@ export default function Dashboard() {
                 Add Initial Funds
               </button>
             </div>
-
+            )}
             {/* Initial funds inline form */}
+            {user?.systemUser && (
             <div className="card p-5">
               <div className="flex items-center justify-between mb-4">
                 <div>
@@ -252,7 +254,7 @@ export default function Dashboard() {
                 Open System Panel
               </button>
             </div>
-
+            )}
             {/* Quick transfer */}
             <div className="card p-5">
               <p className="font-semibold text-ink-primary text-sm mb-3">Quick Transfer</p>
