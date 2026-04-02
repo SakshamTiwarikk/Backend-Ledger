@@ -9,7 +9,7 @@ app.use(
   cors({
     origin: [
     "http://localhost:5173",
-    "https://backend-ledger-git-main-sakshamtiwarikks-projects.vercel.app"
+    "https://backend-ledger-ecru.vercel.app/"
     ],
     credentials: true,
   })
