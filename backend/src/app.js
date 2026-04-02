@@ -7,7 +7,10 @@ const app = express();
 // ✅ ADD THIS BLOCK
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+    "http://localhost:5173",
+    "https://eclectic-medovik-15517b.netlify.app/login"
+    ],
     credentials: true,
   })
 );
