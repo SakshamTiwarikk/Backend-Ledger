@@ -8,8 +8,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-    "http://localhost:5173",
-    "https://backend-ledger-ecru.vercel.app/"
+      "http://localhost:5173",
+      "https://backend-ledger-ecru.vercel.app"
     ],
     credentials: true,
   })
